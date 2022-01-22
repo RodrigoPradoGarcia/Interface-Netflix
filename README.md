@@ -10,3 +10,8 @@
     <li>Exibir informações da série ao clicar em "mais informações"</li>
     <li>Exibir o trailer ao clicar em "Assisstr agora"</li>
 </ul>
+
+<h1>Screenshots:</h1>
+<img src='Screenshot1.png' />
+<img src='Screenshot2.png' />
+<img src='Screenshot3.png' />
