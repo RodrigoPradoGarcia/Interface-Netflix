@@ -2,11 +2,12 @@ import { memo } from 'react';
 import styled from 'styled-components'; 
 
 const ResultPesq = styled.div`
+    min-height:100vh;
     width:100%;
     background:black;
     color:white;
     font-size:2em;
-    padding:min(20px , 5vw);
+    padding-left:15px;
 `;
 
 const Mini = styled.div`
@@ -68,10 +69,12 @@ const ResultadosPesquisa = ({series,pesquisa,callbackCarrosselItem,setPesq})=>{
 
         return(
             <>
+            {  pesquisa==="" ||
                <ResultPesq>
-                    {pesquisa==="" || <h4 className='mb-4'>Resultados para: {pesquisa}</h4>}
-                    {series.filter( (serie)=>matches(pesquisa,serie) ).map( (serie,indice)=>{return <Mini key={`serie-${indice}`} style={{display:'inline',margin:'5px'}} className='item'><img style={{maxWidth:'200px',marginBottom:'15px'}} onClick={()=>{callbackCarrosselItem(serie);setPesq("")}} src={serie.miniatura} /></Mini>} )}
+                    {pesquisa==="" || <h4 className='pb-5 mb-0'>Resultados para: {pesquisa}</h4>}
+                    {series.filter( (serie)=>matches(pesquisa,serie) ).map( (serie,indice)=>{return <Mini key={`serie-${indice}`} style={{display:'inline',margin:'5px'}} className='item'><img alt={serie.titulo} style={{maxWidth:'200px',marginBottom:'15px'}} onClick={()=>{callbackCarrosselItem(serie);setPesq("");window.scrollTo(0,0)}} src={serie.miniatura} /></Mini>} )}
                </ResultPesq>
+            }
             </>
         );
 }

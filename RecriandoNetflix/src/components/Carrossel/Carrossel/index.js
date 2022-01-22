@@ -10,9 +10,9 @@ const Carrossel = ({series,setSerieBanner})=>{
 
     return(
         <>
-        <h1 className='text-light bg-black m-0 p-4'>Explore</h1>
+            <h1 className='text-light bg-black m-0 p-4'>Explore</h1>
             <Caro className='bg-black owl-carousel'>
-                {series.map( (serie,indice)=><CarrosselItem key={`carrossel-item-${indice}`} {...serie} callbackCarrosselItem={()=>setSerieBanner(serie)} /> )}
+                {series.map( (serie,indice)=><CarrosselItem key={`carrossel-item-${indice}`} {...serie} callbackCarrosselItem={()=>{setSerieBanner(serie);window.scrollTo(0,0)}} /> )}
             </Caro>
         </>
     );

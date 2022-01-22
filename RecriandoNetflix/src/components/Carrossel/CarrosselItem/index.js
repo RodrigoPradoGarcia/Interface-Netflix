@@ -1,4 +1,4 @@
-import { memo, useEffect, useState } from 'react';
+import { memo } from 'react';
 import styled from 'styled-components';
 
 const Mini = styled.div`
@@ -21,12 +21,12 @@ const Mini = styled.div`
             filter:grayscale(.5);
         }
     `;
-const CarrosselItem = ({miniatura,callbackCarrosselItem})=>{
+const CarrosselItem = ({titulo,miniatura,callbackCarrosselItem})=>{
 
     return(
         <>
             <Mini className='item'>
-                <img onClick={callbackCarrosselItem} src={miniatura} />
+                <img alt={titulo} onClick={callbackCarrosselItem} src={miniatura} />
             </Mini>
         </>
     );
