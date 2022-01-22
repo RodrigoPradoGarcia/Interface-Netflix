@@ -1,5 +1,5 @@
 <h1>Recriando a Netflix</h1>
-<small>Um simples clone da Netflix desenvolvido em React</small>
+<small>Um projeto proposto pela Digital Innovation One</small>
 
 <h4>Alguns diferenciais feitos no projeto incluem:</h4>
 <ul>
