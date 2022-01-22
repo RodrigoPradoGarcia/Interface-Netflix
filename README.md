@@ -1,4 +1,3 @@
-:television:
 <h1>Recriando a Netflix</h1>
 <small>Um simples clone da Netflix desenvolvido em React</small>
 
