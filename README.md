@@ -12,6 +12,6 @@
 </ul>
 
 <h1>Screenshots:</h1>
-<img src='Screenshot1.png' />
+<img src='Screenshot1.PNG' />
 <img src='Screenshot2.png' />
-<img src='Screenshot3.png' />
+<img src='Screenshot3.PNG' />
