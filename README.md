@@ -1,9 +1,8 @@
 <h1>Recriando a Netflix</h1>
-<small>Um projeto proposto pela Digital Innovation One</small>
+<small>Um simples clone da Netflix desenvolvido em React</small>
 
-<h4>Alguns diferenciais feitos no projeto incluem:</h4>
+<h4>Algumas interações adicionadas ao projeto incluem:</h4>
 <ul>
-    <li>Interface construída em React</li>
     <li>Exibir a série no cartaz ao clicar sobre ela</li>
     <li>Filtros de Filmes, Séries e Desenhos</li>
     <li>Uma barra de pesquisa que exibe os resultados da busca</li>
