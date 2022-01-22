@@ -1,7 +1,7 @@
 <h1>Recriando a Netflix</h1>
 <small>Um simples clone da Netflix desenvolvido em React</small>
 
-<h4>Alguns Diferenciais incluidos no projeto incluem:</h4>
+<h4>Alguns diferenciais feitos no projeto incluem:</h4>
 <ul>
     <li>Exibir a série no cartaz ao clicar sobre ela</li>
     <li>Filtros de Filmes, Séries e Desenhos</li>
